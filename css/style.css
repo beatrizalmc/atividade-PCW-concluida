@@ -1,0 +1,326 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(62, 62, 87);
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(97, 97, 136);
+    color: white;
+    padding: 35px 20px 35px 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 3rem;
+    margin: 0 0 10px 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+.start {
+    color: rgb(53, 53, 73);
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 10px 0 10px 0;
+}
+
+main {
+    background-color: rgb(199, 181, 228);
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 0 0 10px 10px;
+    font-weight: bold;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.opcoes a {
+    display: block;
+    width: fit-content;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.opcao-par {
+    background-color: rgb(173, 159, 194);
+    color: white;
+}
+
+.opcao-par:hover {
+    background-color: rgb(97, 97, 136);
+    transform: scale(1.03);
+}
+
+.opcao-imp {
+    background-color: rgb(97, 97, 136);
+    color: white;
+}
+
+.opcao-imp:hover {
+    background-color: rgb(206, 194, 224);
+    transform: scale(1.03);
+}
+
+footer {
+    background-color: rgb(97, 97, 136);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.7rem;
+    color: white;
+}
+
+/* PÁGINA DEE LIVROS DISPONÍVEIS */
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu a {
+    display: block;
+    width: fit-content;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(53, 53, 73);
+}
+
+.titmain {
+    color: rgb(53, 53, 73);
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.submain {
+    color: rgb(53, 53, 73);
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 0 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.produtos {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0 0 0;
+}
+
+.produto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.produto-imagem {
+    font-size: 4em;
+    margin-bottom: 15px;
+}
+
+.produto h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.produto-preco {
+    font-size: 1.5em;
+    color: #27ae60;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.produto-estado {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.produto-descricao {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+
+.details {
+    text-decoration: none;
+    background-color:  rgb(97, 97, 136);
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+/* PÁGINA FORMULÁRIO */
+.submain2 {
+    color: rgb(53, 53, 73);
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 0 50px 0;
+}
+
+.form-geral {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h3 {
+    margin-bottom: 20px;
+    color: rgb(53, 53, 73);
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(62, 62, 87);;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(53, 53, 73);
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color:  rgb(97, 97, 136);
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+/* PÁGINA FORMULÁRIO */
+.titport {
+    color: rgb(53, 53, 73);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.subport {
+    color: rgb(53, 53, 73);
+    font-size: 1rem;
+    padding: 0 0 10px 0;
+}
+
+.tith3 {
+    color: rgb(53, 53, 73);
+    font-size: 1rem;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+.portfolio-geral, .portfolio-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.exp, .cursos {
+    list-style-position: inside;
+    color: rgb(53, 53, 73);
+} 
+
+/* Página de Detalhes */
+.titlivro {
+    color: rgb(53, 53, 73);
+    font-size: 1.5rem;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+.detalhes-wrapper {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+img {
+    width: 50%;
+}
+
+.preco2 {
+    font-size: 2.5em;
+    color: #27ae60;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.info-section {
+    margin-bottom: 30px;
+}
+
+.info-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(53, 53, 73);
+}
