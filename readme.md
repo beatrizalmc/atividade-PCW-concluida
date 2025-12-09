@@ -1,8 +1,12 @@
+# Classificados Online: Livros Usados (atividade)
+
+## Sobre o Projeto
 Este projeto foi desenvolvido como atividade avaliativa da disciplina Padrões para Conteúdos Web (PCW).
 A proposta consiste em desenvolver uma plataforma onde as pessoas possam realizar a consulta (visualizar) e cadastrar anúncios de produtos e/ou serviços pela Internet. O tema ficou livre, então decidi escolher fazer um Classificados de Livros usados. 
 
-🗂️ Arquitetura do Projeto
-/Projeto-Classificados            
+## Arquitetura do Projeto
+```
+🗂️ Projeto-Classificados            
  ├── css/
  │    ├── style.css
  │    └── reset.css            
@@ -21,15 +25,14 @@ A proposta consiste em desenvolver uma plataforma onde as pessoas possam realiza
  │    ├── cadastro.html             
  │    └── portfolio.html
  └── readme.md       
+```
 
-Páginas que compõem o site:
+## Páginas que compõem o site
 - Página Inicial (index.html)
 A página inicial apresenta:
 
 Cabeçalho com nome da plataforma
-
 Menu de navegação para todas as seções do site
-
 Layout construído com Flexbox
 
 - Página de Produtos (produtos.html)
@@ -61,17 +64,15 @@ Página desenvolvida para apresentação pessoal, contendo:
 
 Nome completo, Informações acadêmicas/profissionais, Links (LinkedIn e GitHub), Pequena descrição pessoal, etc.
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-HTML5
-CSS3
-Flexbox
-Estrutura semântica
+- HTML5
+- CSS3
+- Flexbox
+- Estrutura semântica
 
-📦 Como Executar o Projeto
+## Como Executar o Projeto
 
-Baixe os arquivos do repositório
-
-Extraia o conteúdo
-
-Abra o arquivo index.html no navegador
+- Baixe os arquivos do repositório
+- Extraia o conteúdo
+- Abra o arquivo index.html no navegador
